@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2639221ED6D4A800487DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2639211ED6D4A800487DA2 /* main.m */; };
+		9D2639251ED6D4A800487DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2639241ED6D4A800487DA2 /* AppDelegate.m */; };
+		9D2639281ED6D4A800487DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2639271ED6D4A800487DA2 /* ViewController.m */; };
+		9D26392B1ED6D4A800487DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2639291ED6D4A800487DA2 /* Main.storyboard */; };
+		9D26392D1ED6D4A800487DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D26392C1ED6D4A800487DA2 /* Assets.xcassets */; };
+		9D2639301ED6D4A800487DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D26392E1ED6D4A800487DA2 /* LaunchScreen.storyboard */; };
+		9D2639451ED6D4C400487DA2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2639401ED6D4C400487DA2 /* UIView+Extension.m */; };
+		9D26394F1ED6E3E600487DA2 /* WYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D26394E1ED6E3E600487DA2 /* WYPasswordView.bundle */; };
+		9DA0B8611ED71CBB009EE06A /* WYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0B8601ED71CBB009EE06A /* WYConst.m */; };
+		9DA0B8641ED726C8009EE06A /* WYPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0B8631ED726C8009EE06A /* WYPasswordInputView.m */; };
+		9DA0B8671ED726DC009EE06A /* WYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0B8661ED726DC009EE06A /* WYPasswordView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D26391D1ED6D4A800487DA2 /* WYPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2639211ED6D4A800487DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D2639231ED6D4A800487DA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D2639241ED6D4A800487DA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D2639261ED6D4A800487DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D2639271ED6D4A800487DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D26392A1ED6D4A800487DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D26392C1ED6D4A800487DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D26392F1ED6D4A800487DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D2639311ED6D4A800487DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D26393F1ED6D4C400487DA2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9D2639401ED6D4C400487DA2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9D26394E1ED6E3E600487DA2 /* WYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WYPasswordView.bundle; sourceTree = "<group>"; };
+		9DA0B85F1ED71CBB009EE06A /* WYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYConst.h; sourceTree = "<group>"; };
+		9DA0B8601ED71CBB009EE06A /* WYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYConst.m; sourceTree = "<group>"; };
+		9DA0B8621ED726C8009EE06A /* WYPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPasswordInputView.h; sourceTree = "<group>"; };
+		9DA0B8631ED726C8009EE06A /* WYPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPasswordInputView.m; sourceTree = "<group>"; };
+		9DA0B8651ED726DC009EE06A /* WYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPasswordView.h; sourceTree = "<group>"; };
+		9DA0B8661ED726DC009EE06A /* WYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPasswordView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D26391A1ED6D4A800487DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D2639141ED6D4A800487DA2 = {
+			isa = PBXGroup;
+			children = (
+				9D2639371ED6D4C400487DA2 /* WYPasswordView */,
+				9D26391F1ED6D4A800487DA2 /* WYPasswordViewDemo */,
+				9D26391E1ED6D4A800487DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D26391E1ED6D4A800487DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D26391D1ED6D4A800487DA2 /* WYPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D26391F1ED6D4A800487DA2 /* WYPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D2639231ED6D4A800487DA2 /* AppDelegate.h */,
+				9D2639241ED6D4A800487DA2 /* AppDelegate.m */,
+				9D2639261ED6D4A800487DA2 /* ViewController.h */,
+				9D2639271ED6D4A800487DA2 /* ViewController.m */,
+				9D2639201ED6D4A800487DA2 /* Supporting Files */,
+			);
+			path = WYPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		9D2639201ED6D4A800487DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2639311ED6D4A800487DA2 /* Info.plist */,
+				9D2639211ED6D4A800487DA2 /* main.m */,
+				9D26392C1ED6D4A800487DA2 /* Assets.xcassets */,
+				9D2639291ED6D4A800487DA2 /* Main.storyboard */,
+				9D26392E1ED6D4A800487DA2 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D2639371ED6D4C400487DA2 /* WYPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				9D26394E1ED6E3E600487DA2 /* WYPasswordView.bundle */,
+				9DA0B85F1ED71CBB009EE06A /* WYConst.h */,
+				9DA0B8601ED71CBB009EE06A /* WYConst.m */,
+				9DA0B8621ED726C8009EE06A /* WYPasswordInputView.h */,
+				9DA0B8631ED726C8009EE06A /* WYPasswordInputView.m */,
+				9DA0B8651ED726DC009EE06A /* WYPasswordView.h */,
+				9DA0B8661ED726DC009EE06A /* WYPasswordView.m */,
+				9D26393F1ED6D4C400487DA2 /* UIView+Extension.h */,
+				9D2639401ED6D4C400487DA2 /* UIView+Extension.m */,
+			);
+			path = WYPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D26391C1ED6D4A800487DA2 /* WYPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2639341ED6D4A800487DA2 /* Build configuration list for PBXNativeTarget "WYPasswordViewDemo" */;
+			buildPhases = (
+				9D2639191ED6D4A800487DA2 /* Sources */,
+				9D26391A1ED6D4A800487DA2 /* Frameworks */,
+				9D26391B1ED6D4A800487DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPasswordViewDemo;
+			productName = WYPasswordViewDemo;
+			productReference = 9D26391D1ED6D4A800487DA2 /* WYPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2639151ED6D4A800487DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "之静之初";
+				TargetAttributes = {
+					9D26391C1ED6D4A800487DA2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9D2639181ED6D4A800487DA2 /* Build configuration list for PBXProject "WYPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D2639141ED6D4A800487DA2;
+			productRefGroup = 9D26391E1ED6D4A800487DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D26391C1ED6D4A800487DA2 /* WYPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D26391B1ED6D4A800487DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2639301ED6D4A800487DA2 /* LaunchScreen.storyboard in Resources */,
+				9D26392D1ED6D4A800487DA2 /* Assets.xcassets in Resources */,
+				9D26392B1ED6D4A800487DA2 /* Main.storyboard in Resources */,
+				9D26394F1ED6E3E600487DA2 /* WYPasswordView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D2639191ED6D4A800487DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA0B8641ED726C8009EE06A /* WYPasswordInputView.m in Sources */,
+				9D2639281ED6D4A800487DA2 /* ViewController.m in Sources */,
+				9D2639251ED6D4A800487DA2 /* AppDelegate.m in Sources */,
+				9DA0B8611ED71CBB009EE06A /* WYConst.m in Sources */,
+				9D2639451ED6D4C400487DA2 /* UIView+Extension.m in Sources */,
+				9D2639221ED6D4A800487DA2 /* main.m in Sources */,
+				9DA0B8671ED726DC009EE06A /* WYPasswordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D2639291ED6D4A800487DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D26392A1ED6D4A800487DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D26392E1ED6D4A800487DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D26392F1ED6D4A800487DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D2639321ED6D4A800487DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D2639331ED6D4A800487DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2639351ED6D4A800487DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyingfu.www.WYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D2639361ED6D4A800487DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYPasswordViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyingfu.www.WYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D2639181ED6D4A800487DA2 /* Build configuration list for PBXProject "WYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2639321ED6D4A800487DA2 /* Debug */,
+				9D2639331ED6D4A800487DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2639341ED6D4A800487DA2 /* Build configuration list for PBXNativeTarget "WYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2639351ED6D4A800487DA2 /* Debug */,
+				9D2639361ED6D4A800487DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2639151ED6D4A800487DA2 /* Project object */;
+}
